@@ -15,7 +15,6 @@ spec:
         kubernetes.io/os: linux
       containers:
         - image: acseshop812362894.azurecr.io/storeimage:v1
-        - image: acseshop812362894.azurecr.io/storeimage:v1
           name: storeimage
           resources:
             requests:
